@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="navy">#3D5A80</color>
+    <color name="blue">#98C1D9</color>
+    <color name="light_blue">#E0FBFC</color>
+    <color name="orange">#EE6C4D</color>
+    <color name="dark_navy">#293241</color>
+
+    <color name="home_bg">@color/light_blue</color>
+    <color name="workouts_bg">@color/blue</color>
+    <color name="social_bg">@color/light_blue</color>
+    <color name="secondary_text">#757575</color>
+    <color name="gray">#DDDDDD</color>
+    <color name="white">#FFFFFF</color>
+</resources>

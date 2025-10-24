@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:contentDescription="@string/post_placeholder"
+            app:srcCompat="@drawable/baseline_info_outline_24"
+            app:tint="@color/navy" />
+
+        <TextView
+            android:id="@+id/postUserTextView"
+            android:textColor="@color/navy"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/username_placeholder"
+            android:fontFamily="@font/instrument_sans"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:gravity="center_vertical"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="match_parent"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/postTextView"
+            android:textColor="@color/navy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:text="@string/post_placeholder"
+            android:fontFamily="@font/instrument_sans"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <com.example.fitfeed.views.SquareImageView
+        android:id="@+id/postImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/post_placeholder"
+        android:scaleType="fitXY"
+        android:src="@drawable/placeholder1" />
+
+    <TextView
+        android:id="@+id/postTextView2"
+        android:textColor="@color/navy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="@string/post_placeholder"
+        android:fontFamily="@font/instrument_sans" />
+
+</LinearLayout>
