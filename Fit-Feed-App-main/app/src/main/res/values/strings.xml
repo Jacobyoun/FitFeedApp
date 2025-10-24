@@ -28,7 +28,6 @@
     <string name="no_home_gym">None</string>
     <string name="title_activity_gym_selector_maps">GymSelectorMapsActivity</string>
     <string name="location_permission_denied">FitFeed requires location access to find gyms near you.</string>
-    <string name="maps_api_key">AIzaSyCNqSQ3MQT7M9WrEu9rWCW-1XPEJfsDTQ8</string>
     <string name="cancel_button">Cancel</string>
     <string name="save_button">Save</string>
     <string name="home_gym">Home Gym</string>
